@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Service Offline</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0b0b18;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+main {
+  max-width: 420px;
+}
+
+img {
+  display: block;
+  width: min(280px, 85vw);
+  margin: 0 auto 30px;
+}
+
+h1 {
+  font-size: 27px;
+  margin-bottom: 14px;
+}
+
+p {
+  color: #b8b8c9;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.warning {
+  margin-top: 22px;
+  padding: 14px;
+  border: 1px solid #653044;
+  border-radius: 10px;
+  color: #ff9bb6;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.status {
+  margin-top: 22px;
+  color: #ff6b83;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+</style>
+</head>
+
+<body>
+<main>
+  <img
+    src="https://raw.githubusercontent.com/Gowee/nyancat-svg/main/nyancat.svg"
+    alt="Nyan Cat"
+  >
+
+  <h1>Service Unavailable</h1>
+
+  <p>
+    This service is currently offline.<br>
+    We apologize for the inconvenience.
+  </p>
+
+  <div class="warning">
+    <strong>Alternative Remakes Not Accepted</strong><br>
+    Other remakes are not accepted, even if
+    they are currently working.
+  </div>
+
+  <div class="status">● CURRENTLY OFFLINE</div>
+</main>
+</body>
+</html>
